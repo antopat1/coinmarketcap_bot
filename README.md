@@ -1,16 +1,15 @@
 # Coinmarketcap_bot report
 
+Every day, at a specific time, we want to obtain as much information as possible about cryptocurrencies, process it, and store the results in a JSON file.
 
-Ogni giorno, ad una certa specifica ora, si vuole ottenere quante più informazioni possibili sulle criptovalute, elaborarle e conservare i risultati in un file JSON.
+## Requirements:
 
-## Requisiti:
+● The cryptocurrency with the highest trading volume (in $) in the last 24 hours.
 
-● La criptovaluta con il volume maggiore (in $) delle ultime 24 ore
+● The top 10 best and worst performing cryptocurrencies (by percentage increase) in the last 24 hours.
 
-● Le migliori e peggiori 10 criptovalute (per incremento in percentuale delle ultime 24 ore)
+● The amount of money required to buy one unit of each of the top 20 cryptocurrencies.
 
-● La quantità di denaro necessaria per acquistare una unità di ciascuna delle prime 20 criptovalute
+● The amount of money required to buy one unit of all cryptocurrencies with a trading volume higher than $76,000,000 in the last 24 hours.
 
-● La quantità di denaro necessaria per acquistare una unità di tutte le criptovalute il cui volume delle ultime 24 ore sia superiore a 76.000.000$
-
-● La percentuale di guadagno o perdita che avreste realizzato se aveste comprato una unità di ciascuna delle prime 20 criptovalute* il giorno prima (ipotizzando che la classifca non sia cambiata)
+● The percentage gain or loss you would have made if you had bought one unit of each of the top 20 cryptocurrencies* the day before (assuming the rankings have not changed).
